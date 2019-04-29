@@ -4,11 +4,13 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { PendulumFxComponent } from './chain/pendulum-fx/pendulum-fx.component';
+import { PendObjectComponent } from './chain/pend-object/pend-object.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    PendulumFxComponent
+    PendulumFxComponent,
+    PendObjectComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,46 @@
+
+
+#p1 {
+  background-color: red;
+  animation: pend 1s ease-in-out 0s infinite alternate;
+}
+
+#p2 {
+  background-color: orange;
+  animation: pend 1.05s ease-in-out 0s infinite alternate;
+}
+
+#p3 {
+  background-color: yellow;
+  animation: pend 1.1s ease-in-out 0s infinite alternate;
+}
+
+#p4 {
+  background-color: green;
+  animation: pend 1.15s ease-in-out 0s infinite alternate;
+}
+
+#p5 {
+  background-color: blue;
+  animation: pend 1.2s ease-in-out 0s infinite alternate;
+}
+
+#p6 {
+  background-color: indigo;
+  animation: pend 1.25s ease-in-out 0s infinite alternate;
+}
+
+#p7 {
+  background-color: violet;
+  animation: pend 1.3s ease-in-out 0s infinite alternate;
+}
+
+@keyframes pend {
+  from {
+    transform: translate(-100px, 0px)
+  }
+
+  to {
+    transform: translate(100px, 0px)
+  }
+}
