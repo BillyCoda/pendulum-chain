@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-pend-object',
@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./pend-object.component.css']
 })
 export class PendObjectComponent implements OnInit {
+  @Input() pendNum: any;
 
   constructor() { }
 
