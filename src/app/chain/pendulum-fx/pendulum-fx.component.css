@@ -1,4 +1,5 @@
 .container {
-  margin: 10vh auto auto;
+  overflow: auto;
+  margin: 4vh auto;
   text-align: center;
 }
