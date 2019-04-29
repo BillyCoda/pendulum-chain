@@ -1,0 +1,40 @@
+.container {
+  margin: 10vh auto auto;
+  text-align: center;
+}
+
+.pend {
+  background-color: black;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 2vh auto;
+}
+
+#p1 {
+  background-color: red;
+}
+
+#p2 {
+  background-color: orange;
+}
+
+#p3 {
+  background-color: yellow;
+}
+
+#p4 {
+  background-color: green;
+}
+
+#p5 {
+  background-color: blue;
+}
+
+#p6 {
+  background-color: indigo;
+}
+
+#p7 {
+  background-color: violet;
+}
